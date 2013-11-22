@@ -622,7 +622,7 @@
 					_readAs(file, fn, 'BinaryString');
 				} else {
 					// Hello IE10!
-					_readAs(file, function (evt){
+					api.readAsDataURL(file, function (evt){
 						if( evt.type == 'load' ){
 							try {
 								// dataURL -> binaryString
@@ -633,7 +633,7 @@
 							}
 						}
 						fn(evt);
-					}, 'DataURL');
+					});
 				}
 			},
 

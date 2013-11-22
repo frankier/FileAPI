@@ -1398,6 +1398,11 @@ Button like link.
 
 ### 2.0.10
 <ul>
+	<li>+ Flash-fallback for `readAsDataURL`, `readAsBinaryString` and `readAsText`</li>
+	<li>+ `FileAPI.upload(url, files[, opts])`</li>
+	<li>#134: + `FileAPI.getMimeType(file)`</li>
+	<li>+ `serial: true` upload option</li>
+	<li>+ `postName: 'files'` uplaod option</li>
 	<li>#289: * WebCam & html5 == false</li>
 	<li>#199, #265: flash fix 2015 error with BitmapData</li>
 	<li>#177: IE9, IE11 flash.camera remembered settigns</li>
